@@ -1,0 +1,25 @@
+<!-- 
+<div class="product-container">
+  <div class="product" *ngFor="let product of products">
+    <a [routerLink]="['/product', product.id]">
+      <div class="image-container">
+        <img [src]="'assets/productsImg/' + product.image" [alt]="product.name" class="product-image" />
+      </div>
+      <p class="product-name">{{ product.name }}</p>
+    </a>
+  </div>
+</div> -->
+
+
+
+     <div class="product-container">
+      <div class="product" *ngFor="let product of products">
+        <a [routerLink]="['/product', product.id]">
+          <div class="image-container">
+            <img [src]="'assets/productsImg/' + product.image" [alt]="product.name" class="product-image" />
+          </div>
+          <p class="product-name">{{ product.name }}</p>
+        </a>
+      </div>
+    </div>
+    
